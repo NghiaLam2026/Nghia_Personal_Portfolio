@@ -14,7 +14,7 @@ html{
     flex-direction: row;
     padding-left: 200px;
     padding-top: 10px;
-    gap: 870px
+    gap: 870px;
 }
 .nav_content{
     display: flex;
@@ -22,13 +22,13 @@ html{
     gap: 50px;
     list-style-type: none;
     align-items: center;
+    padding-right: 40px;
 }
 .nav_bar p{
     font-size: 25px;
-}
-.nav_bar p{
     cursor: default;
 }
+
 .nav_content li a{
     font-size: 20px;
 }
@@ -306,7 +306,7 @@ button{
     flex-direction: row;
     justify-content: center;
     gap: 150px;
-    padding-left: 50px;;
+    padding-left: 50px;
 }
 
 .technology h2{
@@ -514,9 +514,9 @@ button{
 
 
 /* Media Queries for Responsiveness */
-@media (max-width: 1600px) and (min-width: 1200px){
+@media (max-width: 1600px){
     .nav_bar{
-        gap: 600px;
+        gap: 650px;
     }
     
     .my_experience{
@@ -525,6 +525,7 @@ button{
         align-items: center;
     }
 }
+
 
 @media (max-width: 1440px){
     .nav_bar{
@@ -543,14 +544,16 @@ button{
     }
 
     .nav_bar{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
         align-items: center;
-        padding: 10px 50px;
-        gap: 20px;
+        padding: 10px 20px;
     }
     
+    .nav_content{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
     .about_section{
         display: flex;
         flex-direction: column;
@@ -559,5 +562,58 @@ button{
 
     .arrow_container{
         display: none;
+    }
+    .more_about_me{
+        width: 565px;
+    }
+    .about_me{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .myself_introduction{
+        width: 500px;
+    }
+
+    .myself_introduction p{
+        margin-left: 15%;
+    }
+
+    .prog_lang{
+        width: 565px;
+    }
+    .first_line{    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px
+    }
+    .second_line{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .technology{
+        width: 565px;
+    }
+    .tech_first_line{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+    }
+    .tech_second_line{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .project_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
