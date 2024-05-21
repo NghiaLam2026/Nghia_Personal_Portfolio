@@ -4,6 +4,7 @@ This is a responsive personal portfolio website that showcases my projects, expe
 <br>
 ## Technologies
 • `HTML`: Markup language for structuring the content of the website.
+<br>
 • `CSS`: Stylesheet language for designging the visual rpesentation of the website.
 ## Live Demo
 https://nghialam2026.github.io/Nghia_Personal_Portfolio/
