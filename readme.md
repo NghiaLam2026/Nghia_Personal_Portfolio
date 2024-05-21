@@ -6,5 +6,12 @@ This is a responsive personal portfolio website that showcases my projects, expe
 • `HTML`: Markup language for structuring the content of the website.
 <br>
 • `CSS`: Stylesheet language for designging the visual rpesentation of the website.
+<br>
+<br>
+#Project Structure
+• `index.html`: The homepage with sections for About Me, Experience, Projects, and Contact.
+• `styles.css`: The stylesheet that defines the layout, colors, and fonts of the website.
+<br>
+<br>
 ## Live Demo
-https://nghialam2026.github.io/Nghia_Personal_Portfolio/
+Link: https://nghialam2026.github.io/Nghia_Personal_Portfolio/
