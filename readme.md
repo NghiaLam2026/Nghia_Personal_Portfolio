@@ -8,7 +8,7 @@ This is a responsive personal portfolio website that showcases my projects, expe
 • `CSS`: Stylesheet language for designging the visual rpesentation of the website.
 <br>
 <br>
-#Project Structure
+##Project Structure
 • `index.html`: The homepage with sections for About Me, Experience, Projects, and Contact.
 <br>
 • `styles.css`: The stylesheet that defines the layout, colors, and fonts of the website.
